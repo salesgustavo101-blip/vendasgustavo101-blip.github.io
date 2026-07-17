@@ -1,1 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
+body{
+    background:#0b0b0b;
+    color:white;
+}
+
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#000;
+    border-bottom:2px solid #d4af37;
+
+}
+
+
+.logo{
+
+    font-size:28px;
+    font-weight:bold;
+    color:#d4af37;
+
+}
+
+
+.logo span{
+
+    color:white;
+
+}
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+
+}
+
+
+nav a:hover{
+
+    color:#d4af37;
+
+}
+
+
+
+.banner{
+
+    text-align:center;
+    padding:40px 8%;
+    background:#111;
+
+}
+
+
+.imagem-banner{
+
+    width:100%;
+    max-height:400px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:30px;
+
+}
+
+
+
+.banner h1{
+
+    color:#d4af37;
+    font-size:50px;
+
+}
+
+
+.banner p{
+
+    font-size:20px;
+    margin:20px;
+
+}
+
+
+
+.botao{
+
+    display:inline-block;
+    background:#d4af37;
+    color:#000;
+    padding:15px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top:15px;
+
+}
+
+
+
+.botao:hover{
+
+    background:white;
+
+}
+
+
+
+section{
+
+    padding:50px 8%;
+    text-align:center;
+
+}
+
+
+
+h2{
+
+    color:#d4af37;
+    font-size:35px;
+    margin-bottom:30px;
+
+}
+
+
+
+.produtos{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+
+}
+
+
+
+.card{
+
+    background:#151515;
+    padding:30px;
+    border-radius:15px;
+    border:1px solid #333;
+
+}
+
+
+
+.card:hover{
+
+    border-color:#d4af37;
+
+}
+
+
+
+.card h3{
+
+    color:#d4af37;
+    margin-bottom:15px;
+
+}
+
+
+
+.card strong{
+
+    display:block;
+    margin-top:20px;
+
+}
+
+
+
+footer{
+
+    background:#000;
+    padding:20px;
+    text-align:center;
+    color:#aaa;
+
+}
